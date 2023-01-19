@@ -2,9 +2,9 @@
 This project uses a logistic regression model to predict the presence of heart disease in a patient based on various attributes. The model is trained and tested on a dataset containing information about heart disease patients. The dataset is read in using pandas and processed for missing values and statistical measures. The model is trained on 80% of the data and tested on the remaining 20%. The accuracy of the model on both the training and testing data is also calculated.
 
 # Dependencies
-numpy
-pandas
-sklearn
+numpy,
+pandas,
+sklearn,
 
 # Data Collection and Processing
 The heart disease dataset is loaded using pandas' read_csv function
